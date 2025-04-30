@@ -1,0 +1,11 @@
+/home/phrazy/Documents/dev/kongbot/target/debug/deps/libhyper_rustls-86a069bda270aa69.rmeta: /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hyper-rustls-0.27.5/src/lib.rs /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hyper-rustls-0.27.5/src/config.rs /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hyper-rustls-0.27.5/src/connector.rs /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hyper-rustls-0.27.5/src/connector/builder.rs /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hyper-rustls-0.27.5/src/stream.rs
+
+/home/phrazy/Documents/dev/kongbot/target/debug/deps/libhyper_rustls-86a069bda270aa69.rlib: /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hyper-rustls-0.27.5/src/lib.rs /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hyper-rustls-0.27.5/src/config.rs /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hyper-rustls-0.27.5/src/connector.rs /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hyper-rustls-0.27.5/src/connector/builder.rs /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hyper-rustls-0.27.5/src/stream.rs
+
+/home/phrazy/Documents/dev/kongbot/target/debug/deps/hyper_rustls-86a069bda270aa69.d: /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hyper-rustls-0.27.5/src/lib.rs /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hyper-rustls-0.27.5/src/config.rs /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hyper-rustls-0.27.5/src/connector.rs /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hyper-rustls-0.27.5/src/connector/builder.rs /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hyper-rustls-0.27.5/src/stream.rs
+
+/home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hyper-rustls-0.27.5/src/lib.rs:
+/home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hyper-rustls-0.27.5/src/config.rs:
+/home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hyper-rustls-0.27.5/src/connector.rs:
+/home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hyper-rustls-0.27.5/src/connector/builder.rs:
+/home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hyper-rustls-0.27.5/src/stream.rs:

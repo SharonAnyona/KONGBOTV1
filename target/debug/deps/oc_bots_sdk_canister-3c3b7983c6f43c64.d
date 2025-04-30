@@ -1,0 +1,10 @@
+/home/phrazy/Documents/dev/kongbot/target/debug/deps/liboc_bots_sdk_canister-3c3b7983c6f43c64.rmeta: /home/phrazy/.cargo/git/checkouts/open-chat-bots-60bc07d927004d3d/768f1e8/rs/canister/sdk/src/lib.rs /home/phrazy/.cargo/git/checkouts/open-chat-bots-60bc07d927004d3d/768f1e8/rs/canister/sdk/src/async_handler.rs /home/phrazy/.cargo/git/checkouts/open-chat-bots-60bc07d927004d3d/768f1e8/rs/canister/sdk/src/canister_runtime.rs /home/phrazy/.cargo/git/checkouts/open-chat-bots-60bc07d927004d3d/768f1e8/rs/canister/sdk/src/env.rs /home/phrazy/.cargo/git/checkouts/open-chat-bots-60bc07d927004d3d/768f1e8/rs/canister/sdk/src/http_command_handler.rs /home/phrazy/.cargo/git/checkouts/open-chat-bots-60bc07d927004d3d/768f1e8/rs/canister/sdk/src/http_router.rs
+
+/home/phrazy/Documents/dev/kongbot/target/debug/deps/oc_bots_sdk_canister-3c3b7983c6f43c64.d: /home/phrazy/.cargo/git/checkouts/open-chat-bots-60bc07d927004d3d/768f1e8/rs/canister/sdk/src/lib.rs /home/phrazy/.cargo/git/checkouts/open-chat-bots-60bc07d927004d3d/768f1e8/rs/canister/sdk/src/async_handler.rs /home/phrazy/.cargo/git/checkouts/open-chat-bots-60bc07d927004d3d/768f1e8/rs/canister/sdk/src/canister_runtime.rs /home/phrazy/.cargo/git/checkouts/open-chat-bots-60bc07d927004d3d/768f1e8/rs/canister/sdk/src/env.rs /home/phrazy/.cargo/git/checkouts/open-chat-bots-60bc07d927004d3d/768f1e8/rs/canister/sdk/src/http_command_handler.rs /home/phrazy/.cargo/git/checkouts/open-chat-bots-60bc07d927004d3d/768f1e8/rs/canister/sdk/src/http_router.rs
+
+/home/phrazy/.cargo/git/checkouts/open-chat-bots-60bc07d927004d3d/768f1e8/rs/canister/sdk/src/lib.rs:
+/home/phrazy/.cargo/git/checkouts/open-chat-bots-60bc07d927004d3d/768f1e8/rs/canister/sdk/src/async_handler.rs:
+/home/phrazy/.cargo/git/checkouts/open-chat-bots-60bc07d927004d3d/768f1e8/rs/canister/sdk/src/canister_runtime.rs:
+/home/phrazy/.cargo/git/checkouts/open-chat-bots-60bc07d927004d3d/768f1e8/rs/canister/sdk/src/env.rs:
+/home/phrazy/.cargo/git/checkouts/open-chat-bots-60bc07d927004d3d/768f1e8/rs/canister/sdk/src/http_command_handler.rs:
+/home/phrazy/.cargo/git/checkouts/open-chat-bots-60bc07d927004d3d/768f1e8/rs/canister/sdk/src/http_router.rs:

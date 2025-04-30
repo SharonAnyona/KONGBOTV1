@@ -1,0 +1,12 @@
+/home/phrazy/Documents/dev/kongbot/target/debug/deps/libasync_lock-647edc77cbd44232.rmeta: /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-lock-3.4.0/src/lib.rs /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-lock-3.4.0/src/barrier.rs /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-lock-3.4.0/src/mutex.rs /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-lock-3.4.0/src/once_cell.rs /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-lock-3.4.0/src/rwlock.rs /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-lock-3.4.0/src/rwlock/futures.rs /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-lock-3.4.0/src/rwlock/raw.rs /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-lock-3.4.0/src/semaphore.rs
+
+/home/phrazy/Documents/dev/kongbot/target/debug/deps/async_lock-647edc77cbd44232.d: /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-lock-3.4.0/src/lib.rs /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-lock-3.4.0/src/barrier.rs /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-lock-3.4.0/src/mutex.rs /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-lock-3.4.0/src/once_cell.rs /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-lock-3.4.0/src/rwlock.rs /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-lock-3.4.0/src/rwlock/futures.rs /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-lock-3.4.0/src/rwlock/raw.rs /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-lock-3.4.0/src/semaphore.rs
+
+/home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-lock-3.4.0/src/lib.rs:
+/home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-lock-3.4.0/src/barrier.rs:
+/home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-lock-3.4.0/src/mutex.rs:
+/home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-lock-3.4.0/src/once_cell.rs:
+/home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-lock-3.4.0/src/rwlock.rs:
+/home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-lock-3.4.0/src/rwlock/futures.rs:
+/home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-lock-3.4.0/src/rwlock/raw.rs:
+/home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-lock-3.4.0/src/semaphore.rs:
