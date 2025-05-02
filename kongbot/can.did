@@ -1,0 +1,23 @@
+type HeaderField = record { text; text };
+
+type HttpRequest = record {
+    method : text;
+    url : text;
+    headers : vec HeaderField;
+    body : blob;
+};
+
+type HttpResponse = record {
+    status_code : nat16;
+    headers : vec HeaderField;
+    body : blob;
+};
+
+type InitOrUpgradeArgs = record {
+    oc_public_key : text;
+};
+
+service : (InitOrUpgradeArgs) -> {
+    "bot_definition" : (HttpRequest) -> (HttpResponse) query;
+    "bot_command_execute" : (HttpRequest) -> (HttpResponse);
+};

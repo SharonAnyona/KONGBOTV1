@@ -1,0 +1,10 @@
+/home/phrazy/Documents/dev/KONGBOTV1/kongbot/target/debug/deps/libprimeorder-cc516c8da14dc104.rmeta: /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/primeorder-0.13.6/src/lib.rs /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/primeorder-0.13.6/src/point_arithmetic.rs /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/primeorder-0.13.6/src/affine.rs /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/primeorder-0.13.6/src/field.rs /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/primeorder-0.13.6/src/projective.rs /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/primeorder-0.13.6/src/../README.md
+
+/home/phrazy/Documents/dev/KONGBOTV1/kongbot/target/debug/deps/primeorder-cc516c8da14dc104.d: /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/primeorder-0.13.6/src/lib.rs /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/primeorder-0.13.6/src/point_arithmetic.rs /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/primeorder-0.13.6/src/affine.rs /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/primeorder-0.13.6/src/field.rs /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/primeorder-0.13.6/src/projective.rs /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/primeorder-0.13.6/src/../README.md
+
+/home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/primeorder-0.13.6/src/lib.rs:
+/home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/primeorder-0.13.6/src/point_arithmetic.rs:
+/home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/primeorder-0.13.6/src/affine.rs:
+/home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/primeorder-0.13.6/src/field.rs:
+/home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/primeorder-0.13.6/src/projective.rs:
+/home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/primeorder-0.13.6/src/../README.md:
