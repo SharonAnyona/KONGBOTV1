@@ -1,59 +1,49 @@
+use crate::state;
+use echo::Echo;
+use coin_price::CoinPrice;
+use alert::Alert;
+use settrade::{SetTrade, Wallet};
+use bal_trades::Trades;
 use oc_bots_sdk::api::command::CommandHandlerRegistry;
 use oc_bots_sdk::api::definition::BotCommandDefinition;
-use oc_bots_sdk_canister::{
-    CanisterRuntime, HttpRequest as SdkHttpRequest, HttpResponse as SdkHttpResponse,
-    OPENCHAT_CLIENT_FACTORY,
-};
+use oc_bots_sdk_canister::env::now;
+use oc_bots_sdk_canister::http_command_handler;
+use oc_bots_sdk_canister::CanisterRuntime;
+use oc_bots_sdk_canister::OPENCHAT_CLIENT_FACTORY;
+use oc_bots_sdk_canister::{HttpRequest, HttpResponse};
 use std::sync::LazyLock;
 
-mod crypto;
+mod echo;
+pub mod bal_trades;
+mod coin_price;
+pub mod alert; 
+pub mod settrade;
+pub mod trade_engine;
+pub mod common_types;
+pub mod wallet;
 
-static COMMANDS: LazyLock<CommandHandlerRegistry<CanisterRuntime>> = LazyLock::new(|| {
-    CommandHandlerRegistry::new(OPENCHAT_CLIENT_FACTORY.clone())
-        .register(crypto::Alert)
-        .register(crypto::Market)
-        .register(crypto::Price)
-        .register(crypto::SetTrade)
-        .register(crypto::Trending)
-});
+
+
+static COMMANDS: LazyLock<CommandHandlerRegistry<CanisterRuntime>> =
+    LazyLock::new(|| CommandHandlerRegistry::new(OPENCHAT_CLIENT_FACTORY.clone())
+        .register(Echo)
+        .register(CoinPrice)
+        .register(Alert)
+        .register(SetTrade)
+        .register(Trades)
+        .register(Wallet));
 
 pub fn definitions() -> Vec<BotCommandDefinition> {
-    vec![
-        crypto::Alert::definition().clone(),
-        crypto::Market::definition().clone(),
-        crypto::Price::definition().clone(),
-        crypto::SetTrade::definition().clone(),
-        crypto::Trending::definition().clone(),
-    ]
+    COMMANDS.definitions()
 }
 
-pub async fn execute(req: SdkHttpRequest) -> SdkHttpResponse {
-    let body_str = String::from_utf8(req.body).unwrap_or_default();
+pub async fn execute(request: HttpRequest) -> HttpResponse {
+    let public_key = state::read(|state| state.oc_public_key().to_string());
+    let now = now();
+    http_command_handler::execute(request, &COMMANDS, &public_key, now).await
+}
 
-    // Parse command request
-    let command_request = match serde_json::from_str(&body_str) {
-        Ok(cr) => cr,
-        Err(e) => {
-            return SdkHttpResponse {
-                status_code: 400,
-                headers: vec![("Content-Type".to_string(), "application/json".to_string())],
-                body: format!(
-                    r#"{{"error": "Invalid command request: {}", "success": false}}"#,
-                    e
-                )
-                .into_bytes(),
-            }
-        }
-    };
-
-    // Execute command using the registry with default context and time
-    let context = Default::default();
-    let now = 0; // Use current time or pass from caller if needed
-    let response = COMMANDS.execute(command_request, context, now).await;
-
-    SdkHttpResponse {
-        status_code: 200,
-        headers: vec![("Content-Type".to_string(), "application/json".to_string())],
-        body: serde_json::to_vec(&response).unwrap_or_default(),
-    }
+// Initialize alert monitoring when the canister starts
+pub fn init_alert_monitoring() {
+    alert::init_alert_monitoring();
 }

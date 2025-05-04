@@ -4,9 +4,14 @@
     "kongbot": {
       "type": "rust",
       "package": "kongbot",
+      "http_request": {
+        "enabled": true
+      },
       "candid": "can.did",
       "gzip": true
+
     }
+    
    
   },
   "networks": {
